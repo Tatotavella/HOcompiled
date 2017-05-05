@@ -5,7 +5,7 @@ subroutine sum_abs(inp, num, asum)
   integer, intent(in) :: inp(*), num
   integer, intent(out) :: asum
   integer :: i,s
-
+   
    s = 0
    do i=1,num
      s = s + abs(inp(i)); 
