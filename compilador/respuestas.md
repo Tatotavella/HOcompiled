@@ -19,7 +19,7 @@ NO hay un bloque dedicado a la función printf. Seguramente sea debido a que no 
 00000000 T main
          U printf
 
-Podemos ver las 3 funciones con letras en mayúscula (columna intermedia), eso quiere decir que las 3 funciones son accesibles desde fuera del objeto (descriptor). No sé a que hace referencia la primer columna y la tercera es el nombre asignado a cada función (entrada). El descriptor T hace referencia a código que se ejecuta (en contraste a la letra D que se refiere a data). En cambio el descriptor U se refiere a undefined, algo que está en acuerdo a la ausencia de un bloque para la función printf en Assembler 
+Podemos ver las 3 funciones con letras en mayúscula (columna intermedia), eso quiere decir que las 3 funciones son accesibles desde fuera del objeto (descriptor). La primer columna hace referencia a la posición en memoria y la tercera es el nombre asignado a cada función (entrada). El descriptor T hace referencia a código que se ejecuta (en contraste a la letra D que se refiere a data). En cambio el descriptor U se refiere a undefined, algo que está en acuerdo a la ausencia de un bloque para la función printf en Assembler 
 
 5.Los objetos de ejecutable son los siguientes:
 08049f28 d _DYNAMIC
